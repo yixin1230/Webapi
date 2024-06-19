@@ -1,0 +1,26 @@
+﻿@WebApplication1_HostAddress = https://localhost:7220
+
+
+// Test posting data:
+
+//Select the Send request link that is above the POST request line.
+//The POST request is send to the app and the response is displayed in the Response pane.
+POST {{WebApplication1_HostAddress}}/todoitems
+Content-Type: application/json
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+###
+// Test the GET endpoints:
+GET {{WebApplication1_HostAddress}}/todoitems
+
+###
+
+PUT {{WebApplication1_HostAddress}}/todoitems/{id}
+Content-Typr:application/json
+{
+  "name": "feed fish",
+  "is Complete": false
+}
+###
