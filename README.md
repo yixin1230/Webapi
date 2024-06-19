@@ -49,7 +49,8 @@ but a model holds a very important role, because a model is your database tables
 
 Primary keys serve as unique identifiers for each row in a database table. Foreign keys link data in one table to the data in another table.
 
-![Foreign-keys.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/95c49394-ba29-48ab-9af4-18a95f04bc83/d20834fd-89ab-4235-bc4f-df4aae2fac9d/Foreign-keys.png)
+![Foreign-keys](https://github.com/yixin1230/Webapi/assets/100164159/9cbb658a-748e-4374-805d-8410cfc4699a)
+
 
 ### Relationships
 
@@ -61,16 +62,8 @@ One-to-one
 
 many always goes into ICollection
 
-## **2.Add a database context**
-
-going to be installing entity framework into [asp.net](http://asp.net) web api app
-
-install Nuget, not success, I need to restart
-
-install SQL sever
-
-### list questions:
 
 ### Resources
 * [.net blazor](https://www.youtube.com/watch?v=walv3nLTJ5g)
 * [.net api](https://www.youtube.com/watch?v=BnlFovYeQtI&list=PL82C6-O4XrHdiS10BLh23x71ve9mQCln0&index=2)
+* [Tutorial: Create a minimal API with ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-8.0&tabs=visual-studio)
