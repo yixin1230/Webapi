@@ -4,9 +4,9 @@ This repository is my playground for learning and experimenting with minimal API
 
 #### Project Setup
 - Create a new ASP.NET Core Empty project named TodoApi.
-- 
+
 #### Configuring Program.cs
-Initialize the app, configure services, and define endpoints.
+Initialize the app, onfigure services, and define endpoints.
 
 #### Adding Necessary Packages
 Install Microsoft.EntityFrameworkCore.InMemory for the in-memory database.
