@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\code\\Webapi\\WebApplication1\\WebApplication1.csproj": {}
+    "/Users/yixinzhang/Desktop/webApi/WebApplication1/WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\code\\Webapi\\WebApplication1\\WebApplication1.csproj": {
+    "/Users/yixinzhang/Desktop/webApi/WebApplication1/WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\code\\Webapi\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "/Users/yixinzhang/Desktop/webApi/WebApplication1/WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "D:\\code\\Webapi\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\zhaoz\\.nuget\\packages\\",
-        "outputPath": "D:\\code\\Webapi\\WebApplication1\\obj\\",
+        "projectPath": "/Users/yixinzhang/Desktop/webApi/WebApplication1/WebApplication1.csproj",
+        "packagesPath": "/Users/yixinzhang/.nuget/packages/",
+        "outputPath": "/Users/yixinzhang/Desktop/webApi/WebApplication1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\zhaoz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/yixinzhang/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +50,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[14.0.8, )"
             }
           },
           "imports": [
@@ -74,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
