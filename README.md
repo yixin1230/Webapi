@@ -3,7 +3,7 @@ This repository is my playground for learning and experimenting with minimal API
 ### Steps and Concepts
 
 #### Project Setup
-- Create a new ASP.NET Core Empty project named TodoApi.
+- Create a new ASP.NET Core Empty project named WebApplication1.
 
 #### Configuring Program.cs
 Initialize the app, onfigure services, and define endpoints.
