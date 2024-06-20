@@ -3,6 +3,9 @@ using WebApplication1.Models;
 using NSwag.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
+{
+    //configure services (DI)
+}
 builder.Services.AddDbContext<TodoDb>(opt => opt.UseInMemoryDatabase("TodoList"));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
@@ -20,6 +23,9 @@ builder.Services.AddOpenApiDocument(config => {
 });
 
 var app = builder.Build();
+{
+    //configure request pipeline
+}
 
 //Enable the Swagger middleware for serving the generated JSON document and the Swagger UI.
 //Swagger is only enabled in a development environment.
